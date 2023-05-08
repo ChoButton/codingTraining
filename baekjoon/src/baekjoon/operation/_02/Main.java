@@ -1,4 +1,4 @@
-package baekjoon.operation_04;
+package baekjoon.operation._02;
 
 import java.util.Scanner;
 
@@ -7,12 +7,10 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		int y = scan.nextInt();
+		double A = scan.nextDouble();
+		double B = scan.nextDouble();
 		
-		System.out.println(y - 543);
-		
+		System.out.println(A / B);
 		scan.close();
-		
 	}
-
 }
