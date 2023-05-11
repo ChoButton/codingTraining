@@ -1,18 +1,16 @@
-package baekjoon.forWhile_05;
+package baekjoon.forWhile._2739;
 
 import java.util.Scanner;
 
 public class Main {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
 		int N = scan.nextInt();
 		
-		while(N != 0) {
-			System.out.print("long");
-			System.out.print(" ");
-			N -= 4;
-		}System.out.print("int");
+		for(int i = 1; i <= 9; i++) {
+			System.out.println(N + " * " + i + " = " + N * i);
+		}
+		
 	}
 }

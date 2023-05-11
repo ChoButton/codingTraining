@@ -1,4 +1,4 @@
-package baekjoon.forWhile_02;
+package baekjoon.forWhile._10950;
 
 import java.util.Scanner;
 
